@@ -11,6 +11,14 @@
     }
 }
 
+.rain-cancellation{
+    margin-top: 20px;
+    @include span(6);
+    img{
+        max-width:100%
+    }
+}
+
 .main-navigation{
     margin-top: 25px;
     @include span(9 last);
