@@ -55,6 +55,7 @@
 
     <div class="layout-content">
        <div class="article-list">
+         {{ page.rain_cancellation}}
          {{ page.content }}
        </div>
     </div>{# /.layout-content #}
@@ -67,10 +68,6 @@
 
   </main>
 
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
-
 </div>{# /.layout-container #}
+
+{% include directory ~ '/partials/footer.html.twig' %}
