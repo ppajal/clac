@@ -7,15 +7,16 @@ main{
 }
 
 .layout-sidebar-first{
-    @include span(2);
+    @include span(3 last);
     
 }
 
-.layout-sidebar-second{
-    @include span(2 last);
-}
+// .layout-sidebar-second{
+//     @include span(2 last);
+// }
 
 .article-list{
+    
     h3{
         a{
             color:#464646;
@@ -23,8 +24,14 @@ main{
         }
     }
 
+
     .views-row{
-        margin:40px 0;
+        background-image: url(../images/pink_rice.png);
+        margin:0 0 20px 0;
+        img{
+            margin-left: 5px; 
+            border-radius: 8px;
+        }
     }
 
 }
