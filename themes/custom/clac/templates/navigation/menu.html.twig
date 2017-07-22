@@ -30,9 +30,11 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('menu') }}>
+      <div{{ attributes.addClass('top-bar')}}>
+      <div{{ attributes.addClass('top-bar-left')}}>
+      <ul{{ attributes.addClass('menu dropdown')}} data-dropdown-menu>
     {% else %}
-      <ul class="sub-menu">
+      <ul class="menu">
     {% endif %}
     {% for item in items %}
       <li{{ item.attributes }}>
