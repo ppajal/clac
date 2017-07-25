@@ -6,6 +6,7 @@ global-css:
 global-js:
   js:
     js/main.js: {}
+    lib/bootstrap.js: {}
     lib/bootstrapmin.js: {}
   dependencies:
     - core/jquery

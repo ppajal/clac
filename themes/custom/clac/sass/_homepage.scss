@@ -24,5 +24,13 @@ main{
         }
     }
 
+    .views-row{
+        background-image: url(../images/pink_rice.png);
+        margin:0 0 20px 0;
+        img{
+            margin-left: 5px; 
+            border-radius: 8px;
+        }
+    }
 
 }
